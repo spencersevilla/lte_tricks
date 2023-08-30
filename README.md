@@ -1,6 +1,9 @@
 # lte_tricks
 Repo full of common scripts and systemd services I end up needing
 
+start.sh/stop.sh:
+These scripts start or stop open5gs control plane components.
+
 cycling_tcpdump.crontab:
 Install this script in crontab (as root) and it captures all control traffic (not data plane) into a nice set of organized tcpdump files. Important variables are as follows:
 -G 14400 restarts the script every 14400 seconds (4 hours)
