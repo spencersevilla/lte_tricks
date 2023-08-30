@@ -1,0 +1,2 @@
+0 */4 * * * tcpdump -i any port 36412 or port 8805 or port 8806 or port 2123 or port 2152 or port 3868 or port 3869 -G 14400 -W 1 -w /root/tcpdump/$(date +\%Y-\%m-\%d_\%H:\%M:\%S)_lte.pcap ; ls /root/tcpdump/*_lte.pcap | head -n -24 | xargs -r rm
+
